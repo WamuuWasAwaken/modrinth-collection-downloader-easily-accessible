@@ -1,47 +1,90 @@
 # Modrinth Collection Downloader
 
-Script to download and update mods from a Modrinth Collection
+Script to download and update mods from a Modrinth Collection using a graphical user interface (GUI).
 
 ## Requirements
-- Python should be installed: https://www.python.org/downloads/
-- (optional) `wget` or `curl`
+- Python should be installed: [Download Python](https://www.python.org/downloads/)
 
 ## How to use
 
+### Graphical User Interface
+
+The script provides a graphical user interface (GUI) for ease of use. When you run `main.py`, a window will open where you can input the required parameters.
+
+#### GUI Features:
+
+- **Collection ID**: The ID of the Modrinth collection to download.
+- **Minecraft Version**: The version of Minecraft (e.g., "1.21", "1.7.4" or "1.19.2").
+- **Loader**: The mod loader to use (e.g., "fabric", "forge", "quilt").
+- **Directory**: The directory to download mods to (default is "mods").
+- **Update existing mods**: A checkbox to indicate whether to update existing mods.
+
+### Running the Script
+
+To run the script, simply execute:
+
 ```sh
-wget -qO- https://raw.githubusercontent.com/aayushdutt/modrinth-collection-downloader/master/main.py | python - -v <minecraft_version> -l <loader> -c <your_collection_id>
+python main.py
 ```
 
-OR using `curl`
+This will open the GUI where you can input the required parameters and start the download process.
 
-```sh
-curl -sL https://raw.githubusercontent.com/aayushdutt/modrinth-collection-downloader/master/main.py | python - -v <minecraft_version> -l <loader> -c <your_collection_id>
-```
+### Logging
 
-OR copy the `main.py` file locally and run
+The script logs its activities to a file named `modrinth_downloader.log`. You can view the log file to see detailed information about the download process, including any errors encountered.
 
-```sh
-python main.py -v <minecraft_version> -l <loader> -c <your_collection_id>
-```
+To open the log file from the GUI, click the "Open Log" button that appears after the download process completes.
 
-### Examples:
+### Last Executed Arguments
 
-- `wget -qO- https://raw.githubusercontent.com/aayushdutt/modrinth-collection-downloader/master/main.py | python - -v 1.20.4 -l fabric -c 5OBQuutT`
-- `wget -qO- https://raw.githubusercontent.com/aayushdutt/modrinth-collection-downloader/master/main.py | python - -v 1.20.4 -l fabric -c 5OBQuutT -d mymods -u`
-  - Saves the mods to mymods and updates existing ones to latest version
+The script saves the last executed arguments to a file named `last_args.json`. When you run the script again, it will pre-fill the input fields with the last used values.
 
-### Options:
+### Directory Structure
+
+The directory structure of the project is as follows:
 
 ```
-  -h, --help            show this help message and exit
-  -c COLLECTION, --collection COLLECTION
-                        ID of the collection to download. Can be obtained from the collection URL (for
-                        https://modrinth.com/collection/5OBQuutT collection_id is 5OBQuutT).
-  -v VERSION, --version VERSION
-                        Minecraft version ("1.20.4", "1.21").
-  -l LOADER, --loader LOADER
-                        Loader to use ("fabric", "forge", "quilt" etc).
-  -d DIRECTORY, --directory DIRECTORY
-                        Directory to download mods to. Default: "mods"
-  -u, --update          Download and update existing mods. Default: false
+.gitignore
+last_args.json
+main.py
+modrinth_downloader.log
+mods/
+    bettercommandblockui-0.5.2a-1.21.8iQcgjQ2.jar
+    carpet-extra-1.21-1.4.148.VX3TgwQh.jar
+    carpet-tis-addition-v1.65.0-mc1.21.1.jE0SjGuf.jar
+    dynamic-fps-3.7.7+minecraft-1.21.0-fabric.LQ3K71Q1.jar
+    entityculling-fabric-1.7.2-mc1.21.NNAgCjsB.jar
+    fabric-api-0.102.0+1.21.P7dR8mSH.jar
+    fabric-carpet-1.21-1.4.147+v240613.TQTTVgYE.jar
+    freecam-fabric-modrinth-1.3.0+mc1.21.XeEZ3fK2.jar
+    iris-fabric-1.8.1+mc1.21.1.YL57xq9U.jar
+    ...
+README.md
 ```
+
+### Example Log Entries
+
+Here are some example log entries from `modrinth_downloader.log`:
+
+```log
+2024-12-25 21:17:21,291 - INFO - ==================================================
+2024-12-25 21:17:21,291 - INFO - Execution Date: 2024-12-25 21:17:21
+2024-12-25 21:17:21,291 - INFO - ==================================================
+2024-12-25 21:17:26,655 - INFO - DOWNLOADING: bettercommandblockui-0.5.2-1.20.jar (Better Command Block UI)
+2024-12-25 21:17:26,666 - ERROR - No version found for 1u6JkXh5 (WorldEdit) with MC_VERSION=1.20 and LOADER=fabric
+2024-12-25 21:17:26,691 - INFO - DOWNLOADING: seethroughlava-4.0-1.20.jar (See Through Water/Lava)
+...
+2024-12-25 21:18:32,869 - INFO - --------------------------------------------------
+2024-12-25 21:18:32,869 - INFO - Nº of mods downloaded: 19 / Nº of total mods: 22
+2024-12-25 21:18:32,869 - INFO - --------------------------------------------------
+```
+
+### Notes
+
+- Ensure that the `mods` directory exists or specify a different directory in the GUI.
+- The script will attempt to download and update mods based on the provided collection ID, Minecraft version, and loader.
+- If the "Update existing mods" checkbox is selected, the script will delete existing mods in the specified directory before downloading the new versions.
+
+### Troubleshooting
+
+If you encounter any issues, please check the `modrinth_downloader.log` file for detailed error messages and information about the download process.

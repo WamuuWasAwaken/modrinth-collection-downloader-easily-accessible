@@ -1,0 +1,78 @@
+2024-12-25 21:17:21,291 - INFO - ==================================================
+2024-12-25 21:17:21,291 - INFO - Execution Date: 2024-12-25 21:17:21
+2024-12-25 21:17:21,291 - INFO - ==================================================
+2024-12-25 21:17:26,655 - INFO - DOWNLOADING: bettercommandblockui-0.5.2-1.20.jar (Better Command Block UI)
+2024-12-25 21:17:26,666 - ERROR - No version found for 1u6JkXh5 (WorldEdit) with MC_VERSION=1.20 and LOADER=fabric
+2024-12-25 21:17:26,691 - INFO - DOWNLOADING: seethroughlava-4.0-1.20.jar (See Through Water/Lava)
+2024-12-25 21:17:26,769 - INFO - DOWNLOADING: sodium-fabric-mc1.20-0.4.10+build.27.jar (Sodium)
+2024-12-25 21:17:26,906 - INFO - DOWNLOADING: more-statistics-mc1.20-v2.2.1.jar (More Statistics)
+2024-12-25 21:17:27,387 - INFO - DOWNLOADING: malilib-fabric-1.20.1-0.16.3.jar (MaLiLib)
+2024-12-25 21:17:27,553 - INFO - DOWNLOADING: itemscroller-fabric-1.20.1-0.20.0.jar (Item Scroller)
+2024-12-25 21:17:27,588 - INFO - DOWNLOADING: dynamic-fps-3.7.7+minecraft-1.20.0-fabric.jar (Dynamic FPS)
+2024-12-25 21:17:27,608 - INFO - DOWNLOADING: entityculling-fabric-1.6.2-mc1.20.1.jar (Entity Culling)
+2024-12-25 21:17:27,816 - INFO - DOWNLOADING: replaymod-1.20.1-2.6.20.jar (ReplayMod)
+2024-12-25 21:17:28,447 - INFO - DOWNLOADING: carpet-extra-1.20-1.4.115.jar (Carpet Extra)
+2024-12-25 21:17:28,476 - INFO - DOWNLOADING: fabric-api-0.83.0+1.20.jar (Fabric API)
+2024-12-25 21:17:28,492 - INFO - DOWNLOADING: fabric-carpet-1.20-1.4.112+v230608.jar (Carpet)
+2024-12-25 21:17:28,493 - ERROR - No version found for UMxybHE8 (MiniHUD) with MC_VERSION=1.20 and LOADER=fabric
+2024-12-25 21:17:28,932 - INFO - DOWNLOADING: freecam-fabric-modrinth-1.2.1+1.20.jar (Freecam)
+2024-12-25 21:17:29,142 - INFO - DOWNLOADING: iris-mc1.20.1-1.6.11.jar (Iris Shaders)
+2024-12-25 21:17:29,197 - ERROR - No version found for hEOCdOgW (Phosphor) with MC_VERSION=1.20 and LOADER=fabric
+2024-12-25 21:17:29,286 - INFO - DOWNLOADING: lithium-fabric-mc1.20-0.11.2.jar (Lithium)
+2024-12-25 21:17:29,303 - ERROR - No version found for bEpr0Arc (Litematica) with MC_VERSION=1.20 and LOADER=fabric
+2024-12-25 21:17:29,779 - INFO - DOWNLOADING: lazydfu-0.1.3.jar (LazyDFU)
+2024-12-25 21:17:30,049 - INFO - DOWNLOADING: carpet-tis-addition-v1.65.0-mc1.20.1.jar (Carpet TIS Addition)
+2024-12-25 21:17:30,146 - INFO - DOWNLOADING: WI-Zoom-1.4-MC1.20.jar (WI Zoom)
+2024-12-25 21:17:30,261 - INFO - --------------------------------------------------
+2024-12-25 21:17:30,261 - INFO - Nº of mods downloaded: 18 / Nº of total mods: 22
+2024-12-25 21:17:30,261 - INFO - --------------------------------------------------
+2024-12-25 21:17:53,820 - INFO - DOWNLOADING: seethroughlava-3.1-1.19.jar (See Through Water/Lava)
+2024-12-25 21:17:53,843 - ERROR - No version found for 1u6JkXh5 (WorldEdit) with MC_VERSION=1.19.2 and LOADER=fabric
+2024-12-25 21:17:53,941 - ERROR - No version found for EhoUIqvO (More Statistics) with MC_VERSION=1.19.2 and LOADER=fabric
+2024-12-25 21:17:53,945 - INFO - DOWNLOADING: bettercommandblockui-0.4.2-1.19.jar (Better Command Block UI)
+2024-12-25 21:17:53,946 - INFO - DOWNLOADING: sodium-fabric-mc1.19.2-0.4.4+build.18.jar (Sodium)
+2024-12-25 21:17:54,557 - INFO - DOWNLOADING: malilib-fabric-1.19.2-0.13.0.jar (MaLiLib)
+2024-12-25 21:17:54,872 - INFO - DOWNLOADING: dynamic-fps-3.7.7+minecraft-1.19.0-fabric.jar (Dynamic FPS)
+2024-12-25 21:17:55,037 - INFO - DOWNLOADING: itemscroller-fabric-1.19.2-0.17.1.jar (Item Scroller)
+2024-12-25 21:17:55,326 - INFO - DOWNLOADING: replaymod-1.19.2-2.6.20.jar (ReplayMod)
+2024-12-25 21:17:55,384 - INFO - DOWNLOADING: entityculling-fabric-1.6.1-mc1.19.2.jar (Entity Culling)
+2024-12-25 21:17:55,677 - INFO - DOWNLOADING: fabric-carpet-1.19.2-1.4.84+v221018.jar (Carpet)
+2024-12-25 21:17:55,892 - INFO - DOWNLOADING: fabric-api-0.77.0+1.19.2.jar (Fabric API)
+2024-12-25 21:17:56,259 - INFO - DOWNLOADING: minihud-fabric-1.19.2-0.23.3-test.1.jar (MiniHUD)
+2024-12-25 21:17:56,518 - INFO - DOWNLOADING: carpet-extra-1.19.2-1.4.84.jar (Carpet Extra)
+2024-12-25 21:17:56,762 - INFO - DOWNLOADING: freecam-fabric-modrinth-1.2.3+1.19.2.jar (Freecam)
+2024-12-25 21:17:56,915 - INFO - DOWNLOADING: iris-mc1.19.2-1.6.11.jar (Iris Shaders)
+2024-12-25 21:17:56,991 - INFO - DOWNLOADING: litematica-fabric-1.19.2-0.12.7.jar (Litematica)
+2024-12-25 21:17:57,307 - INFO - DOWNLOADING: lithium-fabric-mc1.19.2-0.11.1.jar (Lithium)
+2024-12-25 21:17:57,436 - INFO - DOWNLOADING: phosphor-fabric-mc1.19.x-0.8.1.jar (Phosphor)
+2024-12-25 21:17:57,471 - INFO - DOWNLOADING: lazydfu-0.1.3.jar (LazyDFU)
+2024-12-25 21:17:57,967 - INFO - DOWNLOADING: WI-Zoom-1.4-MC1.19.2.jar (WI Zoom)
+2024-12-25 21:17:57,984 - INFO - DOWNLOADING: carpet-tis-addition-mc1.19.2-v1.59.0.jar (Carpet TIS Addition)
+2024-12-25 21:17:58,154 - INFO - --------------------------------------------------
+2024-12-25 21:17:58,154 - INFO - Nº of mods downloaded: 20 / Nº of total mods: 22
+2024-12-25 21:17:58,154 - INFO - --------------------------------------------------
+2024-12-25 21:18:28,269 - INFO - DOWNLOADING: bettercommandblockui-0.5.2a-1.21.jar (Better Command Block UI)
+2024-12-25 21:18:28,283 - INFO - DOWNLOADING: worldedit-mod-7.3.8.jar (WorldEdit)
+2024-12-25 21:18:28,301 - ERROR - No version found for 8Cq6k6jf (See Through Water/Lava) with MC_VERSION=1.21 and LOADER=fabric
+2024-12-25 21:18:28,333 - INFO - DOWNLOADING: more-statistics-v2.3.8-mc1.21.1.jar (More Statistics)
+2024-12-25 21:18:28,381 - INFO - DOWNLOADING: sodium-fabric-0.6.5+mc1.21.1.jar (Sodium)
+2024-12-25 21:18:29,031 - INFO - DOWNLOADING: malilib-fabric-1.21-0.21.5.jar (MaLiLib)
+2024-12-25 21:18:29,143 - INFO - DOWNLOADING: itemscroller-fabric-1.21-0.24.55.jar (Item Scroller)
+2024-12-25 21:18:29,272 - INFO - DOWNLOADING: entityculling-fabric-1.7.2-mc1.21.jar (Entity Culling)
+2024-12-25 21:18:29,656 - INFO - DOWNLOADING: dynamic-fps-3.7.7+minecraft-1.21.0-fabric.jar (Dynamic FPS)
+2024-12-25 21:18:29,793 - INFO - DOWNLOADING: replaymod-1.21-2.6.20.jar (ReplayMod)
+2024-12-25 21:18:29,929 - INFO - DOWNLOADING: fabric-carpet-1.21-1.4.147+v240613.jar (Carpet)
+2024-12-25 21:18:30,065 - INFO - DOWNLOADING: minihud-fabric-1.21-0.32.54.jar (MiniHUD)
+2024-12-25 21:18:30,186 - INFO - DOWNLOADING: fabric-api-0.102.0+1.21.jar (Fabric API)
+2024-12-25 21:18:30,493 - INFO - DOWNLOADING: carpet-extra-1.21-1.4.148.jar (Carpet Extra)
+2024-12-25 21:18:30,957 - INFO - DOWNLOADING: freecam-fabric-modrinth-1.3.0+mc1.21.jar (Freecam)
+2024-12-25 21:18:31,010 - INFO - DOWNLOADING: iris-fabric-1.8.1+mc1.21.1.jar (Iris Shaders)
+2024-12-25 21:18:31,044 - INFO - DOWNLOADING: litematica-fabric-1.21-0.19.54.jar (Litematica)
+2024-12-25 21:18:31,212 - ERROR - No version found for hEOCdOgW (Phosphor) with MC_VERSION=1.21 and LOADER=fabric
+2024-12-25 21:18:31,388 - INFO - DOWNLOADING: lithium-fabric-mc1.21-0.13.1.jar (Lithium)
+2024-12-25 21:18:32,000 - INFO - DOWNLOADING: WI-Zoom-1.5-MC1.21.jar (WI Zoom)
+2024-12-25 21:18:32,200 - ERROR - No version found for hvFnDODi (LazyDFU) with MC_VERSION=1.21 and LOADER=fabric
+2024-12-25 21:18:32,712 - INFO - DOWNLOADING: carpet-tis-addition-v1.65.0-mc1.21.1.jar (Carpet TIS Addition)
+2024-12-25 21:18:32,869 - INFO - --------------------------------------------------
+2024-12-25 21:18:32,869 - INFO - Nº of mods downloaded: 19 / Nº of total mods: 22
+2024-12-25 21:18:32,869 - INFO - --------------------------------------------------

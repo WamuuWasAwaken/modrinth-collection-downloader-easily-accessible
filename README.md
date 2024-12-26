@@ -3,23 +3,31 @@
 Script to download and update mods from a Modrinth Collection using a graphical user interface (GUI).
 
 ## Requirements
-- Python should be installed: [Download Python](https://www.python.org/downloads/)
+- If you are using the executable from the release files, Python is not required.
+- If you are running the script directly, Python should be installed: [Download Python](https://www.python.org/downloads/)
 
 ## How to use
 
 ### Graphical User Interface
 
-The script provides a graphical user interface (GUI) for ease of use. When you run `main.py`, a window will open where you can input the required parameters.
+The script provides a graphical user interface (GUI) for ease of use. When you run the executable or `main.py`, a window will open where you can input the required parameters.
 
 #### GUI Features:
 
 - **Collection ID**: The ID of the Modrinth collection to download.
-- **Minecraft Version**: The version of Minecraft (e.g., "1.21", "1.7.4" or "1.19.2").
+- **Minecraft Version**: The version of Minecraft (e.g., "1.21").
 - **Loader**: The mod loader to use (e.g., "fabric", "forge", "quilt").
 - **Directory**: The directory to download mods to (default is "mods").
 - **Update existing mods**: A checkbox to indicate whether to update existing mods.
 
-### Running the Script
+### Running the Program
+
+#### Using the Executable
+
+1. Download the executable from the [releases page](https://github.com/emc00073/modrinth-collection-downloader-easily-accessible/releases).
+2. Run the executable file.
+
+#### Using Python Script
 
 To run the script, simply execute:
 

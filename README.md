@@ -22,13 +22,6 @@ The script provides a graphical user interface (GUI) for ease of use. When you r
 
 ### Running the Program
 
-#### Using the Executable
-
-1. Download the executable from the [releases page](https://github.com/emc00073/modrinth-collection-downloader-easily-accessible/releases).
-2. Run the executable file.
-
-#### Using Python Script
-
 To run the script, simply execute:
 
 ```sh

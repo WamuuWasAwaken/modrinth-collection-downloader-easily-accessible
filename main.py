@@ -131,9 +131,7 @@ def download_mod(mod_id, version, loader, directory, update, existing_mods=[]):
             logging.error(f"Couldn't find a file to download for {mod_id} ({mod_name})")
             return False
         filename: str = file_to_download["filename"]
-        filename_parts = filename.split(".")
-        filename_parts.insert(-1, mod_id)
-        filename_with_id = ".".join(filename_parts)
+        filename_with_id = f"{mod_name}-{version}"
 
         if existing_mod and existing_mod["filename"] == filename_with_id:
             logging.info(f"{filename_with_id} latest version already exists.")

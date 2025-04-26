@@ -249,6 +249,7 @@ logging.info("=" * 50)
 
 # GUI setup
 root = tk.Tk()
+root.resizable(False, False)
 root.title("Modrinth Collection Downloader")
 
 ttk.Label(root, text="Collection ID (required):").grid(column=0, row=0, padx=10, pady=5)

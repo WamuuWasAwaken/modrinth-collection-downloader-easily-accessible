@@ -89,3 +89,7 @@ Here are some example log entries from `modrinth_downloader.log`:
 ### Troubleshooting
 
 If you encounter any issues, please check the `modrinth_downloader.log` file for detailed error messages and information about the download process.
+
+## Credits
+
+I did not write this software, all the credit goes to [emc00073](https://github.com/emc00073) and [aayushdutt](https://github.com/aayushdutt).

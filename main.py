@@ -133,9 +133,9 @@ def download_mod(mod_id, version, loader, directory, update, existing_mods=[]):
         filename: str = file_to_download["filename"]
         filename_with_version = f"{mod_name}-{version}"
         if loader == "iris":
-            filename_with_version += .zip
+            filename_with_version += ".zip"
         else:
-            filename_with_version += .jar
+            filename_with_version += ".jar"
 
         if existing_mod and existing_mod["filename"] == filename_with_version:
             logging.info(f"{filename_with_version} latest version already exists.")

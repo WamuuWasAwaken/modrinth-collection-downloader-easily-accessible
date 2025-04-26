@@ -131,17 +131,21 @@ def download_mod(mod_id, version, loader, directory, update, existing_mods=[]):
             logging.error(f"Couldn't find a file to download for {mod_id} ({mod_name})")
             return False
         filename: str = file_to_download["filename"]
-        filename_with_id = f"{mod_name}-{version}.jar"
+        filename_with_version = f"{mod_name}-{version}"
+        if loader == "iris":
+            filename_with_version += .zip
+        else:
+            filename_with_version += .jar
 
-        if existing_mod and existing_mod["filename"] == filename_with_id:
-            logging.info(f"{filename_with_id} latest version already exists.")
+        if existing_mod and existing_mod["filename"] == filename_with_version:
+            logging.info(f"{filename_with_version} latest version already exists.")
             return False
 
         logging.info(
             f"{'UPDATING' if existing_mod else 'DOWNLOADING'}: {file_to_download['filename']} ({mod_name})"
         )
         modrinth_client.download_file(
-            file_to_download["url"], f"{directory}/{filename_with_id}"
+            file_to_download["url"], f"{directory}/{filename_with_version}"
         )
 
         if existing_mod:

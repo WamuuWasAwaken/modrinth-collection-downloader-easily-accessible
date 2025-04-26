@@ -263,7 +263,7 @@ version_entry.grid(column=1, row=1, padx=10, pady=5)
 ttk.Label(root, text="Loader (required):").grid(column=0, row=2, padx=10, pady=5)
 loader_var = tk.StringVar()
 loader_menu = ttk.Combobox(root, textvariable=loader_var, width=17)
-loader_menu['values'] = ("fabric", "forge", "quilt")
+loader_menu['values'] = ("fabric", "forge", "quilt", "iris")
 loader_menu.grid(column=1, row=2, padx=10, pady=5)
 loader_menu.current(0)
 
